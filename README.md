@@ -35,16 +35,15 @@
     * [Nodejs](https://nodejs.org/en/download/)
     * [微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
     
-2. 数据库依次导入litemall-db/sql下的数据库文件
-    * litemall_schema.sql
-    * litemall_table.sql
-    * litemall_data.sql
+2. 数据库依次导入mall-db/sql下的数据库文件
+    * mall_schema.sql
+    * mall_table.sql
+    * mall_data.sql
 
 3. 启动小商场和管理后台的后端服务
 
     打开命令行，输入以下命令
     ```bash
-    cd litemall
     mvn install
     mvn clean package
     java -Dfile.encoding=UTF-8 -jar litemall-all/target/litemall-all-0.1.0-exec.jar
@@ -55,7 +54,7 @@
     打开命令行，输入以下命令
     ```bash
     npm install -g cnpm --registry=https://registry.npm.taobao.org
-    cd litemall/litemall-admin
+    cd mall/mall-admin
     cnpm install
     cnpm run dev
     ```
@@ -63,7 +62,7 @@
     
 5. 启动小商城前端
    
-   这里存在两套小商场前端litemall-wx和renard-wx，开发者可以分别导入和测试：
+   这里存在两套小商场前端mall-wx和renard-wx，开发者可以分别导入和测试：
    
    1. 微信开发工具导入litemall-wx项目;
    2. 项目配置，启用“不校验合法域名、web-view（业务域名）、TLS 版本以及 HTTPS 证书”
@@ -85,6 +84,4 @@
     ```
     此时，浏览器（建议采用chrome 手机模式）打开，输入网址`http://localhost:6255`, 此时进入轻商场。
 
-    注意：
-    > 现在功能很不稳定，处在开发阶段。
         
