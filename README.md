@@ -64,21 +64,20 @@
    
    这里存在两套小商场前端mall-wx和renard-wx，开发者可以分别导入和测试：
    
-   1. 微信开发工具导入litemall-wx项目;
+   1. 微信开发工具导入mall-wx项目;
    2. 项目配置，启用“不校验合法域名、web-view（业务域名）、TLS 版本以及 HTTPS 证书”
    3. 点击“编译”，即可在微信开发工具预览效果；
    4. 也可以点击“预览”，然后手机扫描登录（但是手机需开启调试功能）。
       
    注意：
-   > 这里只是最简启动方式，而小商场的微信登录、微信支付等功能需开发者设置才能运行，
-   > 更详细方案请参考[文档](https://linlinjava.gitbook.io/litemall/project)。
+   > 这里只是最简启动方式，而小商场的微信登录、微信支付等功能需开发者设置才能运行。
 
 6. 启动轻商城前端
 
     打开命令行，输入以下命令
     ```bash
     npm install -g cnpm --registry=https://registry.npm.taobao.org
-    cd litemall/litemall-vue
+    cd mall/mall-vue
     cnpm install
     cnpm run dev
     ```
