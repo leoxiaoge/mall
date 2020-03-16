@@ -10,35 +10,14 @@
         </span>
         <el-input v-model="loginForm.username" name="username" type="text" tabindex="1" auto-complete="on" placeholder="管理员账户" />
       </el-form-item>
-
       <el-form-item prop="password">
         <span class="svg-container">
           <svg-icon icon-class="password" />
         </span>
         <el-input v-model="loginForm.password" :type="passwordType" name="password" auto-complete="on" tabindex="2" show-password placeholder="管理员密码" @keyup.enter.native="handleLogin" />
       </el-form-item>
-
       <el-button :loading="loading" type="primary" style="width:100%;margin-bottom:30px;" @click.native.prevent="handleLogin">登录</el-button>
-
-      <div style="position:relative">
-        <div class="tips">
-          <span> 超级管理员用户名: admin123</span>
-          <span> 超级管理员用户名：admin123</span>
-        </div>
-        <div class="tips">
-          <span> 商城管理员用户名: mall123</span>
-          <span> 商城管理员用户名：mall123</span>
-        </div>
-        <div class="tips">
-          <span> 推广管理员用户名: promotion123</span>
-          <span> 推广管理员用户名：promotion123</span>
-        </div>
-      </div>
     </el-form>
-
-    <div class="copyright">
-      Copyright © 2020 xxx.com 版权所有 <a href="http://www.example.com/">沪ICP备xxx号</a>
-    </div>
   </div>
 </template>
 
@@ -175,18 +154,6 @@ $light_gray:#eee;
     overflow: hidden;
   }
 
-  .tips {
-    font-size: 14px;
-    color: #fff;
-    margin-bottom: 10px;
-
-    span {
-      &:first-of-type {
-        margin-right: 16px;
-      }
-    }
-  }
-
   .svg-container {
     padding: 6px 5px 6px 15px;
     color: $dark_gray;
@@ -204,21 +171,6 @@ $light_gray:#eee;
       margin: 0px auto 40px auto;
       text-align: center;
       font-weight: bold;
-    }
-  }
-  .copyright {
-    font-size: 12px;
-    color: #fff;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-bottom: 20px;
-    letter-spacing: 0.6px;
-    a {
-      font-weight: bold;
-      border-bottom: 1px solid #fff;
-      font-family: "PingFangSC-Semibold", sans-serif;
     }
   }
 }
