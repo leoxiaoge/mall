@@ -46,7 +46,7 @@
     ```bash
     mvn install
     mvn clean package
-    java -Dfile.encoding=UTF-8 -jar litemall-all/target/litemall-all-0.1.0-exec.jar
+    java -Dfile.encoding=UTF-8 -jar mall-all/target/mall-all-0.1.0-exec.jar
     ```
     
 4. 启动管理后台前端
@@ -83,4 +83,12 @@
     ```
     此时，浏览器（建议采用chrome 手机模式）打开，输入网址`http://localhost:6255`, 此时进入轻商场。
 
-        
+## 项目实例
+
+### 小商场实例
+
+* vue实例
+
+![](./doc/pics/readme/renard_wx_demo.png)
+
+> 注意：此实例是真实小商场，开发者可以购买商品和付款，但请不要尝试退款操作。
