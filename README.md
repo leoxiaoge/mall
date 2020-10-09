@@ -92,9 +92,7 @@
 ![](./doc/pics/readme/renard_wx_demo.png)
 
 > 注意：此实例是真实小商场，开发者可以购买商品和付款，但请不要尝试退款操作。
-
-source F:\Program Files\MySQL\MySQL Server 8.0\bin\litemall_schema.sql
-
-source F:\Program Files\MySQL\MySQL Server 8.0\bin\litemall_table.sql
-
-source F:\Program Files\MySQL\MySQL Server 8.0\bin\litemall_data.sql
+* show  databases;
+* source F:\Program Files\MySQL\MySQL Server 8.0\bin\litemall_schema.sql
+* source F:\Program Files\MySQL\MySQL Server 8.0\bin\litemall_table.sql
+* source F:\Program Files\MySQL\MySQL Server 8.0\bin\litemall_data.sql
