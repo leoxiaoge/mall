@@ -96,3 +96,6 @@
 * source F:\Program Files\MySQL\MySQL Server 8.0\bin\litemall_schema.sql
 * source F:\Program Files\MySQL\MySQL Server 8.0\bin\litemall_table.sql
 * source F:\Program Files\MySQL\MySQL Server 8.0\bin\litemall_data.sql
+
+* java -Dfile.encoding=UTF-8 -jar /usr/local/apache-tomcat-9.0.38/webapps/mall-all-0.1.0-exec.jar
+* nohup java -Dfile.encoding=UTF-8 -jar /usr/local/apache-tomcat-9.0.38/webapps/mall-all-0.1.0-exec.jar
